@@ -1,0 +1,142 @@
+body{
+    color:#58595B;
+}
+header{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    background-color: #F97D00;
+    height: 80px;
+    margin-bottom: 25px;
+}
+
+header i{
+    font-size: 30px;
+    margin: 10px 20px;
+}
+
+.resumo{
+    border: solid;
+    border-width: 0.1px;
+    border-radius: 10px 10px 0 0;
+    border-color: #58595B;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin: 0px 10px;
+}
+
+.total{
+    border: solid;
+    border-width: 0.1px;
+    border-radius: 0px 0px 10px 10px;
+    border-color: #58595B;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    background-color: #F97D00;
+}
+
+.border{
+    border: solid;
+    border-color: #58595B;
+    border-width: 0.3px;
+    border-radius: 10px 10px;
+    padding: 5px 17px 5px 17px;
+    margin: 10px;
+}
+
+.itinerariodata{
+    margin: 10px;
+}
+
+h3{
+    display: inline;
+}
+
+#espaco{
+    margin-top: 20px;
+}
+
+.iconeReserva{
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
+.bordaSection{
+    padding: 10px 20px;
+}
+
+.dataEHora{
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+}
+
+.pagar{
+	justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.laranja {
+    color: #F97D00;
+}
+
+.iconespagamento{
+    margin: 10px;
+}
+
+.bordaresumo{
+    margin: 0px 10px;
+}
+
+.branco{
+    color: white;
+}
+
+/*PAGAR COM PIX*/
+
+.imgqrcode{
+    width: 260px;
+    max-width: 100%;
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: #F97D00;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.footericons{
+    justify-content: center;
+    display: flex;
+}
+
+.footericons i {
+    font-size: 30px;
+    padding: 10px;
+}
+
+button.btnconcluir{
+    margin: 0 auto 18px;
+    padding: 0;
+    height: 50px;
+    display: block;
+    width: 280px;
+    background-color: #F97D00;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+}
