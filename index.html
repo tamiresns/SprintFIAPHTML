@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Pagamento</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <script src='js/main.js'></script>
+    <script src="https://kit.fontawesome.com/75764da381.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="container">
+        <div class="item">
+            <i class="fas fa-bars branco"></i>
+        </div>
+            
+        <div class="item">
+            <i class="far fa-user-circle branco"></i>
+        </div>
+    </header>
+
+    <!--RESUMO DA RESERVA-->
+    <section class="container resumo">
+        
+        <div class="item bordaresumo">
+            <p>Resumo da reserva</p>          
+        </div>
+        
+        <div class="item bordaresumo">            
+            <i class="fas fa-chevron-down laranja"></i>
+        </div>
+    
+    </section>
+
+    <!--TOTAL-->
+
+    <section class="total resumo">
+        <div class="item bordaresumo">
+            <p class="branco">TOTAL</p>
+        </div>
+
+        <div class="item bordaresumo">
+            <p class="branco">R$ 1.029,42</p>
+        </div>
+    </section>
+
+    <!--CONFIRMAR RESERVA-->
+
+    <section>
+        <h1>Confirmar Reserva</h1>
+        <div class="itinerario border">
+            
+            <h2>Seu itinerário</h2>
+
+            <!--RETIRADA-->
+           <div class="bordaSection">
+                <i class="iconeReserva fas fa-map-marker-alt laranja"></i>
+                <h3>Retirada</h3>
+
+                <p>Sao Paulo - CONSOLACAO</p>
+                <p>Rua tal tal tal, 34</p>
+
+                <div class="container dataEHora">
+                    <div><i class="far fa-calendar-alt laranja"></i></div>
+                    <div><p class="itinerariodata">14/10/2020</p></div>
+                </div>
+
+                <div class="container dataEHora">
+                    <div><i class="far fa-clock laranja"></i></div>
+                    <div><p class="itinerariodata">08:30H</p></div>
+                </div>
+
+            <hr>
+
+                <!--DEVOLUCAO-->
+                <div id="espaco">
+                    <i class="iconeReserva fas fa-map-marker-alt laranja"></i>
+                    <h3>Devolucao</h3>
+                </div>
+                
+                <p>Sao Paulo - CONSOLACAO</p>
+                <p>Rua tal tal tal, 34</p>
+
+                <div class="container dataEHora">
+                    <div><i class="far fa-calendar-alt laranja"></i></div>
+                    <div><p class="itinerariodata">14/10/2020</p></div>
+                </div>
+
+                <div class="container dataEHora">
+                    <div><i class="far fa-clock laranja"></i></div>
+                    <div><p class="itinerariodata">08:30H</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--OPCCOES DE PAGAMENTO-->
+    
+    <section class="border bordaSection">
+        <h2>Opcoes de pagamento</h2>
+        <p>Você pode pagar diretamente na loja ou pagar agora com o desconto exclusivo e agilizar a sua contratação.</p>
+
+        <div class="container space-between">
+            <div><p><b>TOTAL</b></p></div>
+            <div><p><b>R$ 1.029,42</b></p></div>
+        </div>
+
+        <!--PAGAR NA LOJA-->
+        <div class="container pagar border">
+            <div class="item">
+                <i class="fas fa-dollar-sign laranja iconespagamento"></i>
+            </div>
+            <div class="item">
+                <p>Pagar na Loja</p>
+            </div>
+        </div>
+
+        <!--PAGAR NO CARTAO DE CRÉDITO-->
+        <div class="container pagar border">
+            <div class="item">
+                <i class="fas fa-credit-card laranja iconespagamento"></i>
+            </div>
+            <div class="item">
+                <p>Pagar no cartao de crédito</p>
+            </div>
+            <div class="item">
+                <i class="fas fa-chevron-down laranja iconespagamento"></i>
+            </div>
+        </div>
+
+        <!--PAGAR NO PIX-->
+        <div class="container pagar border" onclick="myFunction()">
+            <div class="item">
+                <i class="fas fa-qrcode laranja iconespagamento"></i>
+            </div>
+            
+            <div class="item">
+                <p>Pagar com PIX</p>
+            </div>
+            
+            <div class="item" id="nav-btn">
+                <i class="fas fa-chevron-down laranja iconespagamento"></i>
+            </div>
+            <br clear="all" />
+        </div> 
+            
+        <!--TOGGLE-->
+                <div class="border" id="myDIV" style="display:none">
+                    <p><b>Escaneie o QRCode ou copie o codigo</b></p>
+                    <img class="imgqrcode" src="img/frame.png">
+                    <p><b>57348960.349758394.234675-98</b></p>
+                </div>
+    </section>
+
+    <button class="btnconcluir">
+        Concluir
+    </button>
+
+    <footer>
+        <div>
+            <p>© 2020 Movida Aluguel de Carros | Todos os direitos reservados.</p>
+            <p>Use cinto de seguranca</p>
+        </div>
+        
+        <hr>
+
+        <div class="container footericons" >
+            <div><i class="fab fa-facebook"></i></div>
+            <div><i class="fab fa-instagram-square"></i></div>
+            <div><i class="fab fa-youtube-square"></i></div>
+            <div><i class="fab fa-twitter-square"></i></div>
+            <div><i class="fab fa-linkedin"></i></div>
+        </div>
+
+    </footer>
+
+
+</body>
+</html>
